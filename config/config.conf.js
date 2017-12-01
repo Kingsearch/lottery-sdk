@@ -12,4 +12,4 @@ class InitSDK
     }
 }
 
-export { InitSDK, config };
+module.exports = { InitSDK, config };

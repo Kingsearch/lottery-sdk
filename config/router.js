@@ -1,9 +1,9 @@
-import { Router, Route } from 'dva/router';
-import Home from '../src/routes/home';
+const { Router, Route } = require('dva/router');
+const Home = require('../src/routes/home');
 
 const router = 
                 <Route path="">
                     <Route path="/home" component={Home} />
                 </Route>
 
-export default router;
+module.exports = router;

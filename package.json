@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "tt-lottery-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tt彩票sdk",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,4 @@
-import SDKROUTE from './config/router';
-import { InitSDK as SDKCONFIG } from './config/config.conf'; 
+const SDKROUTE = require('./config/router');
+const { InitSDK } = require('./config/config.conf');
 
-
-export { SDKROUTE, SDKCONFIG };
+export { SDKROUTE, InitSDK };

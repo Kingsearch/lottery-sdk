@@ -1,6 +1,6 @@
-import React from 'react';
-import { connect } from 'dva';
-import { config } from '../../config/config.conf';
+const React = require('react');
+const { connect } = require("dva");
+const { config } = require('../../config/config.conf');
 
 function Home() {
   return (
@@ -13,4 +13,4 @@ function Home() {
 Home.propTypes = {
 };
 
-export default connect()(Home);
+module.exports = connect()(Home);
