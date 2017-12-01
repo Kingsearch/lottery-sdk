@@ -1,6 +1,6 @@
 ﻿{
   "name": "tt-lottery-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "tt彩票sdk",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "author": "king",
   "license": "ISC",
   "dependencies": {
-    "dva": "^1.2.1"
+    "dva": "^1.2.1",    
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
   }
 }
